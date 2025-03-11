@@ -52,7 +52,7 @@ const server = http.createServer(app);
 // Initialize Socket.IO with the HTTP server
 const io = socketIo(server, {
   cors: {
-    origin: "http://localhost:3000", // Allow frontend to connect
+    origin: "https://mcq-battle-game-1vs1-ic3q.vercel.app", // Allow frontend to connect
     methods: ["GET", "POST"]
   }
 });
